@@ -1,0 +1,42 @@
+.top_mainVisual{
+    height: calc(100vh - 100px);
+    background-image: url(books-g1d7777402_1920.jpg);
+    background-size: cover;
+    
+}
+
+.section{
+    height: 100px;
+    position: relative;
+    
+}
+
+.scroll span {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    transform: rotate(-45deg);
+    animation: sdb 1.5s infinite;
+    box-sizing: border-box;
+}
+
+/*// アニメーション*/
+@keyframes sdb {
+  0% {
+    transform: rotate(
+-45deg) translate(0);
+}
+20% {
+    transform: rotate(
+-45deg) translate(-10px,10px);
+}
+40% {
+    transform: rotate(
+-45deg) translate(0);
+}
+}
