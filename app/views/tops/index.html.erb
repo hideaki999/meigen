@@ -1,12 +1,12 @@
 <div class="top_main_visual">
-    <header class="top_header">
-        <div class="top_title">
-            <%= image_tag "k0257_7.png" %>
-            <a class="top_title_name">メイゲン</a>
+    <header class="top_main_visual_header">
+        <div class="top_main_visual_title_area">
+            <div class="top_main_visual_logo"><%= image_tag "k0257_7.png" %></div>
+            <div class="top_main_visual_title"><%= link_to "メイゲン", "/" %></div>
         </div>
-        <div>
-            sign in
-            sing up
+        <div class="top_main_visual_login_area">
+            <div class="top_main_visual_signin"><%= link_to "sign in", "/" %></div>
+            <div class="top_sub_visual_signup"><%= link_to "sign up", "/" %></div>
         </div>
     </header>
 </div>
@@ -21,12 +21,9 @@
         <div class="top_sub_visual_explanation_text">
             <p class="top_sub_visual_explanation_firsttext">あなたの知らない名言に出会える場所。</p>
             <p class="top_sub_visual_explanation_secondtext">あなたの名言を誰かに教える場所。</p>
-            <div class="top_sub_visual_explanation_thaadtext"><a href="#">さあ、始めてみよう ＞</a></div>
+            <div class="top_sub_visual_explanation_thaadtext"><%= link_to "さあ、始めてみよう ＞", "/" %></div>
         </div>
     </div>
-    <!--<div class="top_sub_visual_startbutton">-->
-    <!--    <a>さあ、始めてみよう ＞</a>-->
-    <!--</div>-->
 </div>
 
 

@@ -1,14 +1,49 @@
+/*トップページメイン*/
 .top_main_visual{
     height: calc(100vh - 100px);
     background-image: url(books-g1d7777402_1920.jpg);
     background-size: cover;
-    
 }
 
+.top_main_visual_title{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.top_main_visual_title_area{
+  height: 100px;
+  width: 100px;
+}
+
+.top_main_visual_title{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.top_main_visual_header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px 0 60px;
+}
+
+.top_main_visual_login_area{
+    width: 200px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/*トップページメインとサブページの間*/
 .section{
     height: 100px;
+    background-color: #f6f6f6;
     position: relative;
-    
 }
 
 .scroll span {
@@ -41,16 +76,23 @@
     }
 }
 
-
+/*トップページサブ*/
 .top_sub_visual{
     height: 100vh;
+    background-color: #f6f6f6;
+}
+
+.top_sub_visual_title,
+.top_sub_visual_explanation_firsttext,
+.top_sub_visual_explanation_secondtext{
+    font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
 }
 
 .top_sub_visual_title{
     font-size: 4.8rem;
     text-align: center;
-    letter-spacing: 1px;
-    padding: 100px 10px 100px 10px; 
+    letter-spacing: 2px;
+    padding: 100px 10px 100px 10px;
 }
 
 
@@ -84,3 +126,4 @@
     font-size: 2rem;
     font-weight: bold;
 }
+
