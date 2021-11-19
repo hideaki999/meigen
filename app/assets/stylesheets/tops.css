@@ -5,37 +5,46 @@
     background-size: cover;
 }
 
-.top_main_visual_title{
-    font-size: 3.5rem;
-    font-weight: bold;
-}
-
 .top_main_visual_title_area{
   height: 100px;
   width: 100px;
 }
 
 .top_main_visual_title{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.top_main_visual_title{
   position: absolute;
   top: 50px;
-  left: 100px;
+  left: 150px;
+}
+
+.top_main_visual_title a{
+    color: white !important;
+    /*text-shadow:1px 1px 0 #FFF, -1px -1px 0 #696969;*/
 }
 
 .top_main_visual_header{
     height: 100px;
     display: flex;
     justify-content: space-between;
-    padding: 30px 60px 0 60px;
+    padding: 40px 100px 0 100px;
 }
 
 .top_main_visual_login_area{
     width: 200px;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-family: "Gill Sans Std Book", sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.top_main_visual_login_area a{
+    color: white !important;
+}
 
 
 
