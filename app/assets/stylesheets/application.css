@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #333333;
+  text-decoration: none;
+}
