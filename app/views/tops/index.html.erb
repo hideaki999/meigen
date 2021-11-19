@@ -5,8 +5,8 @@
             <div class="top_main_visual_title"><%= link_to "メイゲン", "/" %></div>
         </div>
         <div class="top_main_visual_login_area">
-            <div class="top_main_visual_signin"><%= link_to "SIGN IN", "/" %></div>
-            <div class="top_sub_visual_signup"><%= link_to "SIGN UP", "/" %></div>
+            <div class="top_main_visual_signin"><%= link_to "SIGN IN", new_user_session_path %></div>
+            <div class="top_sub_visual_signup"><%= link_to "SIGN UP", new_user_registration_path %></div>
         </div>
     </header>
 </div>
@@ -21,7 +21,7 @@
         <div class="top_sub_visual_explanation_text">
             <p class="top_sub_visual_explanation_firsttext">あなたの知らない名言に出会える場所。</p>
             <p class="top_sub_visual_explanation_secondtext">あなたの名言を誰かに教える場所。</p>
-            <div class="top_sub_visual_explanation_thaadtext"><%= link_to "さあ、始めてみよう ＞", "/" %></div>
+            <div class="top_sub_visual_explanation_thaadtext"><%= link_to "さあ、始めてみよう ＞", new_user_registration_path %></div>
         </div>
     </div>
 </div>
