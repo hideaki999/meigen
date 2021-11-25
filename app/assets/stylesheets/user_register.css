@@ -1,0 +1,76 @@
+/*サインアップ画面全体*/
+.sign_up_area{
+    height: 100vh;
+    background-color: #FFF;
+}
+
+/*サインアップ画面ヘッダーエリア*/
+.sign_up_area_header{
+    position:relative;
+    height: 200px;
+}
+
+.sign_up_area_logo_app_title{
+    position: absolute;
+    top: 40px;
+    left: 10px
+}
+
+/*サインアップ画面タイトル*/
+.sign_up_title{
+    line-height: 200px;
+    text-align: center;   
+    font-size: 5rem;
+}
+
+/*サインアップ画面ヘッダーロゴ*/
+.sign_up_area_header img{
+    position: relative;
+    left: 10px;
+    filter: invert(50%) sepia(0%) saturate(11%) hue-rotate(143deg) brightness(101%) contrast(93%);
+}
+
+/*サインアップ画面ヘッダーリンク*/
+.sign_up_area_logo_app_title a{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+/*サインアップ画面投稿エリア*/
+.sign_up_inputarea{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*サインアップ画面投稿フォーム*/
+input[type="text"] ,
+input[type="email"],
+input[type="password"]{
+    height: 30px;
+    width: 350px;
+    margin-top: 50px;
+    border-right:none;
+    border-left:none;
+    border-top:none;
+    border-bottom: solid 1px #99CCFF;
+    font-size: 1.5rem;
+    outline: none
+}
+
+/*サインアップ画面送信ボタン*/
+.actions input[type="submit"]{
+    width: 350px;
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #EE9595;
+    outline: none;
+    border-right:none;
+    border-left:none;
+    border-top:none;
+    border-bottom:none;
+    font-size: 2rem;
+}
